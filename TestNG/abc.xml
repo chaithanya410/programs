@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "HMS suite">
+<test name= "HMS Results">
+<classes>
+<class name= "SeleniumTestNG.HMS_Login_Logout">
+<methods>
+
+<include name="verifyLogin"></include>
+<include name="verifyLogout"></include> 
+
+</methods>
+</class>
+</classes>
+</test>
+
+<test name= "GoogleLanguagesResults">
+<classes>
+<class name= "SeleniumTestNG.GoogleLanguages_PM">
+<methods>
+
+<include name="GoogleLanguages()"></include>
+
+
+</methods>
+</class>
+</classes>
+</test>
+</suite>

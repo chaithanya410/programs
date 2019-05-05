@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70725" started-at="2019-05-04T19:29:01Z" finished-at="2019-05-04T19:30:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70725" started-at="2019-05-04T19:29:01Z" finished-at="2019-05-04T19:30:12Z">
+      <class name="SeleniumTestNG.GoogleLanguages_PM">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:SeleniumTestNG.GoogleLanguages_PM@6a2bcfcb]" name="beforeTest" is-config="true" duration-ms="58451" started-at="2019-05-05T00:59:01Z" finished-at="2019-05-05T00:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="GoogleLanguages()[pri:0, instance:SeleniumTestNG.GoogleLanguages_PM@6a2bcfcb]" name="GoogleLanguages" duration-ms="12179" started-at="2019-05-05T00:59:59Z" finished-at="2019-05-05T01:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleLanguages -->
+      </class> <!-- SeleniumTestNG.GoogleLanguages_PM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "HMS_Login_Logout">
+<test name = "HMS admin">
+<classes>
+<class name= "SeleniumTestNG.HMS_Login_Logout_XML">
+<parameter name= "username"  value= "admin"></parameter>
+<parameter name= "password"  value= "admin"></parameter>
+
+<method>
+<include name="verifylogin"></include>
+</method>
+
+</class>
+
+</classes>
+
+</test>
+
+<test name= "HMS mahesh">
+
+<classes>
+
+<parameter name= "username"  value= "mahesh"></parameter>
+<parameter name= "password"  value= "mahesh"></parameter>
+<class name= "SeleniumTestNG.HMS_Login_Logout_XML">
+</class>
+
+<method>
+
+<include name="verifylogin"></include>
+
+</method>
+
+</classes>
+
+</test>
+
+</suite>
